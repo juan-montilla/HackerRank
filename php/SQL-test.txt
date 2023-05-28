@@ -1,0 +1,33 @@
+Based on the following table schema, please responde with SQL 
+
+1. Output a listing of every parent's name and the count of the number of children they have
+2. Now modify the query to limit the otput to parents that have 2 or more children.
+3. Now list every parent name and every child name that starts with letter 'A' in a single column called mixed_names.
+4. (BONUS) List all parents names in one field and all their children in a another field separated by comma
+
+parent {
+  id int PK,
+  name varchar(100)
+}
+
+child
+{
+  id int PK,
+  name varchar(100),
+  parent_id int FK(parent)
+}
+
+
+Based ont he following table schema, output a list of names of all destinations that have hotels with more that 20 rooms, ordering the list from the highest number of hotels to the lowest
+
+destination {
+  id int PK,
+  name varchar(100)
+}
+
+hotel {
+  id int PK,
+  name varchar(100),
+  rooms int,
+  destination_id int FK(destinations)
+}
