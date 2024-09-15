@@ -1,0 +1,15 @@
+{
+    "name": "jmontilla/php",
+    "description": "HackerRank Tests",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Juan Carlos Montilla Correa",
+            "email": "juan.carlos.montilla@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.6",
+        "phpspec/prophecy": "^1.17"
+    }
+}

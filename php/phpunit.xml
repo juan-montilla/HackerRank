@@ -1,0 +1,22 @@
+<!-- copied from https://tommcfarlin.com/phpunit-xml-configuration/ -->
+<phpunit 
+  bootstrap="testsBootStrap.php"
+  backupGlobals="false"
+  colors="true"
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"  
+  >
+  <testsuites>
+    <testsuite name="public">
+      <directory suffix=".php">./tests</directory>
+    </testsuite>
+    <testsuite name="private">
+      <directory suffix=".php">./privates/tests</directory>
+    </testsuite>
+  </testsuites>
+  <logging>
+    <text outputFile="logfile.txt" />
+    <testdoxHtml outputFile="testdox.html"/>
+  </logging>
+</phpunit>

@@ -1,0 +1,6 @@
+js/node_modules
+js/package-lock.json
+php/privates
+php/vendor
+php/.phpunit*
+php/composer.lock

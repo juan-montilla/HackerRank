@@ -1,0 +1,19 @@
+{
+  "name": "hackerrank.js",
+  "version": "1.0.0",
+  "description": "HackerRank using JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HackerRank",
+    "Javascript"
+  ],
+  "author": "juan.carlos.montilla@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.6.0",
+    "globals": "^15.8.0"
+  }
+}
